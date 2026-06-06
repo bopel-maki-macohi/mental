@@ -1,1 +1,9 @@
-class PlayState extends EyesBackdrop {}
+class PlayState extends EyesBackdrop
+{
+	override function create()
+	{
+		super.create();
+
+		eyes.alpha = .25;
+	}
+}
