@@ -5,5 +5,7 @@ class PlayState extends EyesBackdrop
 		super.create();
 
 		eyes.alpha = .25;
+
+        trace('I dont feel ok');
 	}
 }
