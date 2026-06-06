@@ -26,8 +26,8 @@ class PlayState extends FlxState
 
 		time += elapsed;
 
-		eyes.scale.x = Math.sin(time * 5) * 10 + 1;
-		eyes.scale.y = Math.sin(time * 8) * 20 + 1;
+		eyes.scale.x = Math.sin(time * 5) * 11;
+		eyes.scale.y = Math.sin(time * 8) * 21;
 
 		// laggy
 		// could use as like a crash scene
