@@ -1,7 +1,7 @@
 import flixel.FlxGame;
 import openfl.display.Sprite;
 
-class Main extends Sprite
+class Main extends MentalSprite
 {
 	public function new()
 	{
